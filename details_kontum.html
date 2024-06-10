@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, user-scalable=yes"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link rel="stylesheet" href="assets/css/w3css.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/template.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .font-text {
+        font-size: larger;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="navigation">
+      <div class="row">
+        <div
+          class="col-lg-8 col-md-8 col-sm-10 col-xs-10"
+          style="margin-top: 0.1px"
+        >
+          <!-- <span class="dropdown btn btn-default" style="margin-left: 1400px">
+            <span class="dropdown-toggle" data-toggle="dropdown">
+              Language<span class="caret"></span>
+            </span>
+            <ul class="dropdown-menu">
+              <li><a href="#">English</a></li>
+              <li><a href="#">VietNamese</a></li>
+            </ul>
+          </span> -->
+        </div>
+      </div>
+    </section>
+    <nav
+      class="navbar navbar-inverse"
+      data-spy="affix"
+      data-offset-top="197"
+      style="border-bottom: 1px solid lightgrey"
+    >
+      <ul class="nav navbar-nav" style="margin-left: 60px">
+        <li class="dropdown" style="font-weight: bold">
+          <a href="index.html" class="dropdown-toggle links">Home</a>
+        </li>
+        <li>
+          <a href="tour.html" class="dropdown-toggle links"> Tours </a>
+          <!-- <ul class="dropdown-menu">
+            <li><a href="tours.html" class="links">Listings</a></li>
+            <li><a href="details_tour.html" class="links">Details Page</a></li>
+            <li>
+              <a href="bookings_tour.html" class="links">Bookings Page</a>
+            </li>
+          </ul> -->
+        </li>
+        <li>
+          <a href="about.html" class="dropdown-toggle links">About Us</a>
+        </li>
+        <li class="dropdown">
+          <a href="#contact" class="dropdown-toggle links">Contact Us</a>
+        </li>
+      </ul>
+      <a href="#"
+        ><img
+          class="images"
+          style="margin-left: 550px; margin-top: 10px; margin-bottom: 20px"
+          src="assets/images/9317c46479efef2a60b07698e8c49606.png"
+          alt="hi"
+      /></a>
+    </nav>
+    <section class="hotel_search">
+      <h3 style="margin-top: 5px; font-weight: bolder; font-size: xx-large">
+        Tour Details
+      </h3>
+    </section>
+    <div class="main">
+      <section>
+        <div class="row">
+          <div
+            class="col-lg-9 col-md-9 col-xs-12 col-sm-12"
+            style="margin-top: 30px"
+          >
+            <div id="pics_detail" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#pics_detail"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#pics_detail" data-slide-to="1"></li>
+                <li data-target="#pics_detail" data-slide-to="2"></li>
+                <li data-target="#pics_detail" data-slide-to="3"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="assets/images/travel2.jpg" class="img_detail" />
+                </div>
+                <div class="item">
+                  <img
+                    src="assets/images/hotel_detail.jpg"
+                    class="img_detail"
+                  />
+                </div>
+                <div class="item">
+                  <img src="assets/images/hihe.jpg" class="img_detail" />
+                </div>
+                <div class="item">
+                  <img
+                    src="assets/images/hotel_detail4.jpg"
+                    class="img_detail"
+                  />
+                </div>
+              </div>
+              <a
+                class="left carousel-control"
+                href="#pics_detail"
+                data-slide="prev"
+              >
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="right carousel-control"
+                href="#pics_detail"
+                data-slide="next"
+              >
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div class="w3-card-4 details_book">
+              <ul class="nav nav-pills">
+                <li class="active" style="margin-left: -80px">
+                  <a data-toggle="pill" href="#desc">Description</a>
+                </li>
+              </ul>
+              <div class="tab-content">
+                <div id="desc" class="tab-pane fade in active">
+                  <div class="row basics">
+                    <div
+                      class="col-lg-8 col-md-8 col-sm-10 col-xs-10 w3-card-4 w3-light-gray card_head_detail"
+                      style="width: 85%"
+                    >
+                      <h4 class="heading" style="margin-left: -50px">
+                        Hotel Details
+                      </h4>
+                      <div
+                        class="row"
+                        style="margin-bottom: 20px; margin-left: -60px"
+                      >
+                        <div
+                          class="col-lg-4 col-md-4 col-sm-10 col-md-10"
+                          style="text-align: left; padding-left: 13%"
+                        >
+                          <h4 class="head_detail">Hotel Type:</h4>
+                          <h4 class="head_detail">Total Stay:</h4>
+                          <h4 class="head_detail">Country:</h4>
+                          <h4 class="head_detail">City:</h4>
+                          <h4 style="margin-top: -1px" class="head_detail">
+                            Cancellation:
+                          </h4>
+                        </div>
+                        <div class="col-lg-8 col-md-8 col-sm-10 col-md-10">
+                          <h4 class="about_part">4 star</h4>
+                          <h4 class="about_part">3 days 2 nights</h4>
+                          <h4 class="about_part">Vietnam</h4>
+                          <h4 class="about_part">
+                            Saigon – Kontum – Mang Den – Pleiku – Saigon
+                          </h4>
+                          <h4 class="about_part">Restricted</h4>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="about_hotel w3-card w3-white"
+                    style="padding-bottom: 30px"
+                  >
+                    <h3 class="heading" style="padding-top: 20px">
+                      About The Tour
+                    </h3>
+                    <h3
+                      class="heading"
+                      style="text-align: left; margin-left: 10px"
+                    >
+                      DAY 01: SAIGON – FLIGHT – PLEIKU – KONTUM (LUNCH, DINNER)
+                    </h3>
+                    <h5
+                      class="hotel_about_para"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        flex-direction: row-reverse;
+                      "
+                    >
+                      <div>
+                        <img
+                          style="width: 400px; margin-top: -30px"
+                          src="assets/images/about1-1.jpg"
+                          class="image_quality"
+                          alt="he"
+                        />
+                      </div>
+                      <div>
+                        <h4 style="font-weight: bold">Morning:</h4>
+                        <p class="font-text">
+                          Guests arrange their own arrival at Tan Son Nhat
+                          Airport for flight to Pleiku..Upon arrival at Pleiku
+                          Airport, the local guide will pick up the group for a
+                          tour of Pleiku: <br />• Visit T’Nưng Lake, known as
+                          the "Eyes of Pleiku," one of the most beautiful
+                          natural lakes in the Central Highlands. Here, guests
+                          will be enchanted by the vast, poetic waters and the
+                          windy skies.
+                        </p>
+                        <span style="font-weight: bold; font-size: large"
+                          >Lunch:</span
+                        >
+                        <span class="font-text"
+                          >Enjoy lunch at a local restaurant.</span
+                        ><br />
+                        <span style="font-weight: bold; font-size: large"
+                          >Afternoon:</span
+                        >
+                        <span class="font-text"
+                          >Continue the tour with visits to:</span
+                        >
+                        <ul class="font-text">
+                          <li>
+                            Minh Thanh Pagoda, an attractive site in Pleiku,
+                            built with a blend of Ly and Tran dynasty
+                            architecture.
+                          </li>
+                          <li>
+                            Unity Square, a cultural-architectural complex
+                            representing the diverse ethnic groups of the
+                            Central Highlands.
+                          </li>
+                          <li>
+                            Unity Square, a cultural-architectural complex
+                            representing the diverse ethnic groups of the
+                            Central Highlands.
+                          </li>
+                          <li>
+                            Unity Square, a cultural-architectural complex
+                            representing the diverse ethnic groups of the
+                            Central Highlands.
+                          </li>
+                        </ul>
+                      </div>
+                    </h5>
+                    <h3
+                      class="heading"
+                      style="text-align: left; margin-left: 10px"
+                    >
+                      DAY 02: KONTUM – MANG DEN (BREAKFAST, LUNCH, DINNER)
+                    </h3>
+                    <h5 class="hotel_about_para">
+                      <span style="font-weight: bold; font-size: large"
+                        >Morning:
+                      </span>
+                      <span class="font-text">Breakfast at the hotel.</span
+                      ><br />
+                      <span class="font-text">Tour Kontum with visits to:</span>
+
+                      <ul class="font-text">
+                        <li>
+                          Wooden Church, built in 1913 by French priests, now
+                          serving as the cathedral and bishop's seat of the Kon
+                          Tum Diocese.
+                        </li>
+                        <li>
+                          Konlor Suspension Bridge, the largest steel bridge in
+                          the Central Highlands.
+                        </li>
+                        <li>
+                          Klor Communal House, a cultural symbol of the Bana
+                          people and other ethnic groups in the Central
+                          Highlands.
+                        </li>
+                        <li>
+                          Kon Tum Bishop's House, a unique blend of Western and
+                          indigenous architecture. Notable is the Traditional
+                          House, a small museum of daily life artifacts, farming
+                          tools, and cultural objects of local ethnic groups,
+                          all meticulously carved in wood.
+                        </li>
+                      </ul>
+                      <span style="font-weight: bold; font-size: large"
+                        >Lunch:
+                      </span>
+                      <span class="font-text">At a local restaurant.</span>
+                      <br />
+                      <span style="font-weight: bold; font-size: large"
+                        >Afternoon:
+                      </span>
+                      <ul class="font-text">
+                        <li>
+                          Depart for Mang Den, a place with a cool climate
+                          year-round, often compared to Da Lat of the Central
+                          Highlands. Visit Pine Forest, Our Lady of Mang Den
+                          Statue, and Dak Ke Lake.
+                        </li>
+                        <li>Dinner at a local restaurant.</li>
+                        <li>Overnight in Mang Den.</li>
+                      </ul>
+                    </h5>
+                    <h3
+                      class="heading"
+                      style="text-align: left; margin-left: 10px"
+                    >
+                      DAY 03: MANG DEN – PLEIKU – FLIGHT – SAIGON (BREAKFAST,
+                      LUNCH)
+                    </h3>
+                    <h5 class="hotel_about_para">
+                      <span style="font-weight: bold; font-size: large"
+                        >Morning:
+                      </span>
+                      <span class="font-text">Breakfast at the hotel.</span
+                      ><br />
+                      <span class="font-text"
+                        >Visit some famous sites in Mang Den:</span
+                      >
+
+                      <ul class="font-text">
+                        <li>
+                          Pa Sy Waterfall: Standing about 45 meters high, the
+                          waterfall cascades down like a long-haired fairy
+                          amidst the Mang Den mountains, adding natural and
+                          mystical beauty to the area.
+                        </li>
+                        <li>
+                          Scenic view of Khanh Lam Pagoda, a spiritual tourism
+                          spot in Mang Den.
+                        </li>
+                      </ul>
+                      <span style="font-weight: bold; font-size: large"
+                        >Lunch:
+                      </span>
+                      <span class="font-text">At a local restaurant.</span
+                      ><br />
+                      <span style="font-weight: bold; font-size: large"
+                        >Afternoon:
+                      </span>
+                      <span class="font-text"
+                        >The bus and guide will take the group to Pleiku Airport
+                        for flight back to Saigon.</span
+                      ><br />
+                    </h5>
+                  </div>
+                  <br /><br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-xs-8 col-sm-6">
+            <h3 class="heading_book">Other Tours</h3>
+            <div class="w3-card-4 w3-display-container card_book">
+              <img src="assets/images/travel4.jpg" class="tour_book_img" />
+            </div>
+            <div
+              class="w3-card-4 w3-display-container card_book"
+              style="margin-top: 20px"
+            >
+              <img src="assets/images/hotel.jpg" class="tour_book_img" />
+            </div>
+            <div
+              class="w3-card-4 w3-display-container card_book"
+              style="margin-top: 20px"
+            >
+              <img src="assets/images/hny1.jpg" class="tour_book_img" />
+            </div>
+            <div
+              class="w3-card-4 w3-display-container card_book"
+              style="margin-top: 20px"
+            >
+              <img src="assets/images/travel3.jpg" class="tour_book_img" />
+            </div>
+            <div
+              class="w3-card-4 w3-display-container card_book"
+              style="margin-top: 20px"
+            >
+              <img src="assets/images/hny2.jpg" class="tour_book_img" />
+            </div>
+            <div
+              class="w3-card-4 w3-display-container card_book"
+              style="margin-top: 20px"
+            >
+              <img src="assets/images/travel4.jpg" class="tour_book_img" />
+            </div>
+            <div
+              class="w3-card-4 w3-display-container card_book"
+              style="margin-top: 20px"
+            >
+              <img src="assets/images/hny3.jpg" class="tour_book_img" />
+            </div>
+            <div
+              class="w3-card-4 w3-display-container card_book"
+              style="margin-top: 20px"
+            >
+              <img src="assets/images/hny4.jpg" class="tour_book_img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="row" id="contact" style="height: 300px">
+          <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
+            <h3
+              class="head_footer"
+              style="
+                margin-left: 40px;
+                font-weight: bolder;
+                font-size: xx-large;
+              "
+            >
+              Travel News
+            </h3>
+            <ul class="list">
+              <li>Latest about Travel</li>
+              <li>New about tours</li>
+              <li>Group Tours Discount</li>
+              <li>Honeymoon sweet</li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-10 col-xs-10">
+            <h3
+              class="head_footer"
+              style="
+                margin-left: 40px;
+                font-weight: bolder;
+                font-size: xx-large;
+              "
+            >
+              Discover
+            </h3>
+            <ul class="list">
+              <li>About Safety</li>
+              <li>Social Connect</li>
+              <li>Help on topics</li>
+              <li>Site Maps</li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-3 col-md-3 col-sm-10 col-xs-10"
+            style="
+              margin-left: -90px;
+              margin-right: 80px;
+              margin-top: 30px;
+              display: flex;
+              flex-direction: row;
+            "
+          >
+            <h5
+              style="
+                font-weight: bold;
+                font-size: x-large;
+                margin-right: 10px;
+                margin-top: -10px;
+              "
+            >
+              Our Location
+            </h5>
+            <div style="height: 250px; width: 100%">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.670791307441!2d108.2212552!3d16.082564400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142183c3d9a7279%3A0x3ab696bef8103c0e!2zMjAgxJDhu5FuZyDEkGEsIFRodeG6rW4gUGjGsOG7m2MsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZyA1NTAwMDA!5e0!3m2!1sen!2s!4v1718053534317!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-10 col-xs-10">
+            <div style="margin-top: 20px; margin-left: 33px">
+              <span class="head_footer">
+                <span class="glyphicon glyphicon-phone"></span>
+                0885327434
+              </span>
+            </div>
+            <div style="margin-left: 40px">
+              <span class="glyphicon glyphicon-envelope"></span>
+              <span class="mail">info@charmingvietour.com</span>
+            </div>
+            <div style="margin-top: 20px">
+              <a href="#">
+                <img
+                  style="max-width: 290px"
+                  src="assets/images/9317c46479efef2a60b07698e8c49606.png"
+                  alt="mh"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>

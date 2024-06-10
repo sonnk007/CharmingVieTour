@@ -311,8 +311,7 @@ footer {
 .hotel_search {
   width: 100%;
   height: 30px;
-  background-color: #0893dd;
-  color: white;
+  color: #0893dd;
   text-align: center;
 }
 .panel-heading {
@@ -328,7 +327,7 @@ footer {
 }
 .cards_hotel {
   width: 270px;
-  height: 280px;
+  height: 300px;
 }
 .caption {
   text-align: center;
@@ -462,7 +461,7 @@ footer {
   width: 84%;
 }
 .head_detail {
-  color: whitesmoke;
+  color: #0893dd;
 }
 .about_part {
   color: gray;
@@ -558,7 +557,7 @@ footer {
   text-emphasis: none;
   text-align: justify;
   vertical-align: baseline;
-  color: whitesmoke;
+  color: whites moke;
 }
 .center-container {
   display: column;

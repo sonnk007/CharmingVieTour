@@ -24,9 +24,9 @@
       <div class="row">
         <div
           class="col-lg-8 col-md-8 col-sm-10 col-xs-10"
-          style="margin-top: 5px; margin-bottom: 5px"
+          style="margin-top: 0.1px"
         >
-          <span class="dropdown btn btn-default" style="margin-left: 1400px">
+          <!-- <span class="dropdown btn btn-default" style="margin-left: 1400px">
             <span class="dropdown-toggle" data-toggle="dropdown">
               Language<span class="caret"></span>
             </span>
@@ -34,21 +34,22 @@
               <li><a href="#">English</a></li>
               <li><a href="#">VietNamese</a></li>
             </ul>
-          </span>
+          </span> -->
         </div>
       </div>
     </section>
-    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="197">
+    <nav
+      class="navbar navbar-inverse"
+      data-spy="affix"
+      data-offset-top="197"
+      style="border-bottom: 1px solid lightgrey"
+    >
       <ul class="nav navbar-nav" style="margin-left: 60px">
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle links" data-toggle="dropdown"
-            >Home</a
-          >
+        <li class="dropdown" style="font-weight: bold">
+          <a href="index.html" class="dropdown-toggle links">Home</a>
         </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle links" data-toggle="dropdown" href="#">
-            Tours
-          </a>
+        <li>
+          <a href="tour.html" class="dropdown-toggle links"> Tours </a>
           <!-- <ul class="dropdown-menu">
             <li><a href="tours.html" class="links">Listings</a></li>
             <li><a href="details_tour.html" class="links">Details Page</a></li>
@@ -57,8 +58,8 @@
             </li>
           </ul> -->
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle links">About Us</a>
+        <li>
+          <a href="about.html" class="dropdown-toggle links">About Us</a>
         </li>
         <li class="dropdown">
           <a href="#contact" class="dropdown-toggle links">Contact Us</a>
@@ -86,43 +87,70 @@
           <div class="item active">
             <img src="assets/images/slide7.jpg" class="img" />
             <div class="carousel-caption">
-              <h1>Lets go for a ride</h1>
-              <h3>Come let us travel the world and enjoy</h3>
+              <h1 style="font-weight: bold; font-size: xx-large">
+                Lets go for a ride
+              </h1>
+              <h2 style="font-weight: bold; font-size: xx-large">
+                Come let us travel the world and enjoy
+              </h2>
             </div>
           </div>
           <div class="item">
             <img src="assets/images/slide2.jpg" class="img" />
             <div class="carousel-caption">
-              <h1>You are special for us</h1>
-              <h3>We make our clients feel very important</h3>
+              <h1 style="font-weight: bold; font-size: xx-large">
+                You are special for us
+              </h1>
+              <h2 style="font-weight: bold; font-size: xx-large">
+                We make our clients feel very important
+              </h2>
             </div>
           </div>
           <div class="item">
             <img src="assets/images/slide8.jpg" class="img" />
             <div class="carousel-caption">
-              <h1>The scenic beauty</h1>
-              <h3>It will be a cherished memory forever</h3>
+              <h1 style="font-weight: bold; font-size: xx-large">
+                The scenic beauty
+              </h1>
+              <h2 style="font-weight: bold; font-size: xx-large">
+                It will be a cherished memory forever
+              </h2>
             </div>
           </div>
           <div class="item">
             <img src="assets/images/slide4.jpg" class="img" />
             <div class="carousel-caption">
-              <h1>Come and Relax with us</h1>
-              <h3>Make your life better brighter and beautiful</h3>
+              <h1 style="font-weight: bold; font-size: xx-large">
+                Come and Relax with us
+              </h1>
+              <h2 style="font-weight: bold; font-size: xx-large">
+                Make your life better brighter and beautiful
+              </h2>
             </div>
           </div>
           <div class="item">
             <img src="assets/images/travel5.jpg" class="img" />
             <div class="carousel-caption">
-              <h1>Your favourite food</h1>
-              <h3>Travel and Masti with great cuisines</h3>
+              <h1 style="font-weight: bold; font-size: xx-large">
+                Your favourite food
+              </h1>
+              <h2 style="font-weight: bold; font-size: xx-large">
+                Travel and Masti with great cuisines
+              </h2>
             </div>
           </div>
           <div class="item">
             <img src="assets/images/travel6.jpg" class="img" />
             <div class="carousel-caption">
-              <h1>Make the journey luxurious and fun</h1>
-              <h3 class="small-captions">Beautiful Hotels during travel</h3>
+              <h1 style="font-weight: bold; font-size: xx-large">
+                Make the journey luxurious and fun
+              </h1>
+              <h2
+                style="font-weight: bold; font-size: xx-large"
+                class="small-captions"
+              >
+                Beautiful Hotels during travel
+              </h2>
             </div>
           </div>
         </div>
@@ -139,7 +167,7 @@
     <div class="main">
       <!-- Tour Viet Nam -->
       <section>
-        <h2 class="heading" style="margin-top: 50px">Tour Viet Nam</h2>
+        <h2 class="heading" style="margin-top: 50px">Vietnam Tour</h2>
         <h4 class="sub">
           These are some of the hot offers that we have for you. So enjoy to the
           fullest
@@ -152,9 +180,11 @@
             <div class="thumbnail">
               <img src="assets/images/bac.jpg" class="image w3-hover-opacity" />
               <div class="caption">
-                <button class="btn btn-primary" style="margin: 10px 10px">
-                  Mien Bac
-                </button>
+                <a href="bac.html">
+                  <button class="btn btn-primary" style="margin: 10px 10px">
+                    Northern Tours
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -166,9 +196,11 @@
                 class="image w3-hover-opacity"
               />
               <div class="caption">
-                <button class="btn btn-primary" style="margin: 10px 10px">
-                  Mien Trung
-                </button>
+                <a href="trung.html">
+                  <button class="btn btn-primary" style="margin: 10px 10px">
+                    Central Tours
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -180,9 +212,11 @@
                 class="image w3-hover-opacity"
               />
               <div class="caption">
-                <button class="btn btn-primary" style="margin: 10px 10px">
-                  Mien Nam
-                </button>
+                <a href="nam.html">
+                  <button class="btn btn-primary" style="margin: 10px 10px">
+                    Southern Tours
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -197,7 +231,7 @@
             <div class="quality_content">
               <h2 class="hny_head">Our Quality Commitment</h2>
               <div class="center-container">
-                <div class="centered-content">
+                <div class="centered-content" style="color: whitesmoke">
                   At CharmingVietour, we are dedicated to providing exceptional
                   travel experiences with a commitment to quality service. Our
                   team of professionals ensures every detail is meticulously
@@ -234,16 +268,24 @@
           <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
             <div class="w3-card-4 w3-display-container cards">
               <img
-                src="assets/images/popular.jpg"
+                src="assets/images/hihe.jpg"
                 class="image_popular w3-hover-sepia"
               />
-              <div class="w3-display-middle w3-container details">
-                View Details
-              </div>
+              <a href="details_danang.html">
+                <div class="w3-display-middle w3-container details">
+                  View Details
+                </div>
+              </a>
+
               <div class="caption2">
-                <h4 class="cap">Highlight Post 1</h4>
+                <h4 class="cap">
+                  Explore Central Vietnam with the hottest destinations in 7
+                  days!
+                </h4>
                 <h5 style="padding-bottom: 20px">
-                  This is a short description
+                  Experience the best of Central Vietnam in just one week. Visit
+                  stunning landmarks and hidden gems <br />
+                  in this exciting 7-day itinerary.
                 </h5>
               </div>
             </div>
@@ -252,16 +294,22 @@
           <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
             <div class="w3-card-4 w3-display-container cards">
               <img
-                src="assets/images/popular1.jpg"
+                src="assets/images/hoho.jpg"
                 class="image_popular w3-hover-sepia"
               />
-              <div class="w3-display-middle w3-container details">
-                View Details
-              </div>
+              <a href="details_vietnam.html">
+                <div class="w3-display-middle w3-container details">
+                  View Details
+                </div>
+              </a>
               <div class="caption2">
-                <h4 class="cap">Highlight Post 1</h4>
+                <h4 class="cap">
+                  Discover amazing Vietnam through <br />a 2-week tour
+                </h4>
                 <h5 style="padding-bottom: 20px">
-                  This is a short description
+                  Take a comprehensive 2-week journey through Vietnam. Explore
+                  its diverse landscapes, vibrant cities, and unique cultural
+                  heritage.
                 </h5>
               </div>
             </div>
@@ -270,16 +318,22 @@
           <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
             <div class="w3-card-4 w3-display-container cards">
               <img
-                src="assets/images/popular2.jpg"
+                src="assets/images/hihihe.jpg"
                 class="image_popular w3-hover-sepia"
               />
-              <div class="w3-display-middle w3-container details">
-                View Details
-              </div>
+              <a href="details_kontum.html">
+                <div class="w3-display-middle w3-container details">
+                  View Details
+                </div>
+              </a>
               <div class="caption2">
-                <h4 class="cap">Highlight Post 1</h4>
+                <h4 class="cap">
+                  Immerse yourself in endless experiences in Pleiku - Kontum
+                </h4>
                 <h5 style="padding-bottom: 20px">
-                  This is a short description
+                  Dive into the rich culture and natural beauty of Pleiku and
+                  Kontum. Enjoy unforgettable <br />adventures in this vibrant
+                  region.
                 </h5>
               </div>
             </div>
@@ -295,59 +349,36 @@
                 View Details
               </div>
               <div class="caption2">
-                <h4 class="cap">Highlight Post 1</h4>
+                <h4 class="cap">
+                  Do you know the trending travel destinations of 2024?
+                </h4>
                 <h5 style="padding-bottom: 20px">
-                  This is a short description
+                  Discover the must-visit places for 2024 that everyone is
+                  talking about. Don't miss out on <br />these top trending
+                  travel spots!
                 </h5>
               </div>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8"></div>
           <div class="col-lg-6 col-md-6 col-sm-8 col-xs-8">
-            <button
-              style="margin-left: -50px; margin-top: 50px"
-              class="btn btn-primary"
+            <a href="#">
+              <button
+                style="margin-left: -50px; margin-top: 50px"
+                class="btn btn-primary"
+              >
+                See More
+              </button></a
             >
-              See More
-            </button>
           </div>
         </div>
       </section>
       <!-- End Highlight Posts -->
 
-      <!-- <section style="margin-top: 50px" id="about">
-        <h2 class="heading">Reasons to Book with us</h2>
-        <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-            <img src="assets/images/about.jpg" class="about_image" />
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-            <div class="w3-card-4 w3-white card_about">
-              <h3 class="heading">Best Prices for Group Tour</h3>
-              <img src="assets/images/about1.jpg" class="image_card" />
-            </div>
-            <div class="w3-card-4 w3-white card_about">
-              <h3 class="heading">Especially for couples</h3>
-              <img src="assets/images/about2.jpg" class="image_card" />
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
-            <div class="w3-card-4 w3-white card_about">
-              <h3 class="heading">Perfect for family outings</h3>
-              <img src="assets/images/about3.jpg" class="image_card" />
-            </div>
-            <div class="w3-card-4 w3-white card_about">
-              <h3 class="heading">Travel alone and have fun</h3>
-              <img src="assets/images/about4.jpg" class="image_card" />
-            </div>
-          </div>
-        </div>
-      </section> -->
-
       <!-- Footer -->
       <footer>
-        <div class="row" id="contact">
-          <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
+        <div class="row" id="contact" style="height: 300px">
+          <div class="col-lg-3 col-md-3 col-sm-8 col-xs-8">
             <h3
               class="head_footer"
               style="
@@ -365,7 +396,7 @@
               <li>Honeymoon sweet</li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
+          <div class="col-lg-3 col-md-3 col-sm-10 col-xs-10">
             <h3
               class="head_footer"
               style="
@@ -383,7 +414,41 @@
               <li>Site Maps</li>
             </ul>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-10 col-xs-10">
+          <div
+            class="col-lg-3 col-md-3 col-sm-10 col-xs-10"
+            style="
+              margin-left: -90px;
+              margin-right: 80px;
+              margin-top: 30px;
+              display: flex;
+              flex-direction: row;
+            "
+          >
+            <h5
+              style="
+                font-weight: bold;
+                font-size: x-large;
+                margin-right: 10px;
+                margin-top: -10px;
+              "
+            >
+              Our Location
+            </h5>
+            <div style="height: 250px; width: 100%">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.670791307441!2d108.2212552!3d16.082564400000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142183c3d9a7279%3A0x3ab696bef8103c0e!2zMjAgxJDhu5FuZyDEkGEsIFRodeG6rW4gUGjGsOG7m2MsIEjhuqNpIENow6J1LCDEkMOgIE7hurVuZyA1NTAwMDA!5e0!3m2!1sen!2s!4v1718053534317!5m2!1sen!2s"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="border: 0"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-10 col-xs-10">
             <div style="margin-top: 20px; margin-left: 33px">
               <span class="head_footer">
                 <span class="glyphicon glyphicon-phone"></span>
