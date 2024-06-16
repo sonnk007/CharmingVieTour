@@ -1045,7 +1045,7 @@ a {
 }
 .w3-sepia-max,
 .w3-hover-sepia:hover {
-  filter: sepia(100%);
+  filter: none;
 }
 .w3-sepia-min {
   filter: sepia(50%);
