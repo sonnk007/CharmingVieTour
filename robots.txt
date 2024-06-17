@@ -1,0 +1,7 @@
+# This file is automatically added by Sonnk Pipeo & MeoHuongw to help a website index better
+# More info: https://www.facebook.com/sonnk20
+User-Agent:*
+Disallow: /charmingvietour.com/
+Allow: /charmingvietour.com/index.html
+
+Sitemap: https://charmingvietour.com/sitemap.xml
