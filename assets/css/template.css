@@ -175,7 +175,7 @@ ul {
   margin-top: 25px;
 }
 .subcap {
-  color: gray;
+  color: white;
 }
 .button {
   color: orange;
@@ -360,7 +360,7 @@ footer {
 }
 .caption_flight {
   margin-left: 10px;
-  color: gray;
+  color: black;
   font-size: 15px;
 }
 .head_flight {
@@ -369,7 +369,7 @@ footer {
   margin-left: 10px;
 }
 .time_flight {
-  color: gray;
+  color: black;
   margin-left: 20px;
 }
 .price {

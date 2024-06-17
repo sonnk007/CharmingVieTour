@@ -189,7 +189,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #afafaf;
+  color: #777;
 }
 
 img {
@@ -551,7 +551,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #0893dd;
   display: block;
   position: absolute;
   width: 30px;
@@ -562,7 +562,7 @@ Header Style
 .background-header .main-nav .menu-trigger span,
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #fff;
+  background-color: #0893dd;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -571,7 +571,7 @@ Header Style
   -o-transition: all 0.4s;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  background-color: #fff;
+  background-color: #0893dd;
   display: block;
   position: absolute;
   width: 30px;
@@ -582,7 +582,7 @@ Header Style
 
 .background-header .main-nav .menu-trigger span:before,
 .background-header .main-nav .menu-trigger span:after {
-  background-color: #fff;
+  background-color: #0893dd;
 }
 
 .header-area .main-nav .menu-trigger span:before,
@@ -623,11 +623,11 @@ Header Style
   -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
   -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
   transform: translateY(6px) translateX(1px) rotate(45deg);
-  background-color: #fff;
+  background-color: #0893dd;
 }
 
 .background-header .main-nav .menu-trigger.active span:before {
-  background-color: #fff;
+  background-color: #0893dd;
 }
 
 .header-area .main-nav .menu-trigger.active span:after {
@@ -635,11 +635,11 @@ Header Style
   -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
   transform: translateY(-6px) translateX(1px) rotate(-45deg);
-  background-color: #fff;
+  background-color: #0893dd;
 }
 
 .background-header .main-nav .menu-trigger.active span:after {
-  background-color: #fff;
+  background-color: #0893dd;
 }
 
 .header-area.header-sticky {
@@ -1563,6 +1563,7 @@ About Page Style
 
 .more-about .info-item h4 {
   font-size: 20px;
+  color: #0893dd;
 }
 
 .more-about .info-item span {
@@ -1808,7 +1809,7 @@ body #user-button:focus-within .u-icons {
 
 @media (prefers-color-scheme: dark) {
   body:not(.light) {
-    background: #232223;
+    background: black;
     color: white;
   }
 }
@@ -2240,7 +2241,7 @@ Reservation Page Style
   text-align: center;
   line-height: 60px;
   border-radius: 50px;
-  color: #22b3c1;
+  color: #0893dd;
   font-size: 20px;
   margin-bottom: 20px;
 }
@@ -2253,7 +2254,7 @@ Reservation Page Style
 
 .more-info .info-item a {
   font-size: 15px;
-  color: #22b3c1;
+  color: #0893dd;
 }
 
 .reservation-form {
