@@ -256,7 +256,7 @@ body {
 }
 
 .main-buttonn {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .main-buttonn a {
@@ -2149,6 +2149,7 @@ Deals Page Style
 
 .amazing-deals .item p {
   margin-top: 10px;
+  letter-spacing: -0.3px;
 }
 
 /* 
